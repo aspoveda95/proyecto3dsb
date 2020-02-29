@@ -58,7 +58,7 @@ def busquedaNombre(nombre):
             listbox.insert(tk.END, '| NOMBRE COMPLETO: {0} | TIPO DE IDENTIFICACION: {1} | CEDULA/RUC: {2} | TELEFONO: {3} | DIRECCION: {4} | CORREO: {5} |'.format(clientes[key][0],clientes[key][1],clientes[key][2],clientes[key][3],clientes[key][4],clientes[key][5]))
             cont +=1
             print(clientes[key])
-    messagebox.showinfo("Aviso", 'Numero de usuarios encontrados: '+str(cont))
+    messagebox.showinfo("Aviso!", 'Numero de usuarios encontrados: '+str(cont))
 
 def busquedaTotal(nom,ced):
     if nom == '' and ced == '':
